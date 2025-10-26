@@ -11,7 +11,7 @@ O projeto apresenta minha trajetória, habilidades e alguns projetos desenvolvid
 - **CSS3** — estilização e layout responsivo  
 - **JavaScript** — interatividade e animações  
 - **Git & GitHub** — versionamento e hospedagem  
-- **FormSubmit** — envio de mensagens via formulário de contato
+- **EmailJS** — envio de mensagens via formulário com utilização de serviço de email online que permite enviar emails diretamente do código JavaScript.
 
 ---
 
@@ -20,7 +20,7 @@ O projeto apresenta minha trajetória, habilidades e alguns projetos desenvolvid
 - Seções de apresentação, habilidades, projetos e contato  
 - Design responsivo adaptado para dispositivos móveis  
 - Animações suaves com JavaScript  
-- Formulário de contato funcional com envio direto por e-mail  
+- Formulário de contato funcional com envio de serviço por e-mail (EmailJS) 
 - Botão “voltar ao topo” e navegação fluida  
 
 ---
