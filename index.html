@@ -106,25 +106,29 @@
 <script src="./main.js" defer></script>
 
 <button id="btn-topo" title="Voltar ao topo">↑</button>
-<script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
 
 <script type="text/javascript">
-  (function(){
-    emailjs.init("y_FOG1WCs2S3nB9Lp"); 
-  })();
-
   document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_302re0k", "template_uzqdx8s", this)
-      .then(() => {
-        alert("Mensagem enviada com sucesso!");
-        this.reset();
-      }, (error) => {
-        alert("Erro ao enviar mensagem: " + JSON.stringify(error));
-      });
+    const nome = this.querySelector('input[name="nome"]').value;
+    const email = this.querySelector('input[name="email"]').value;
+    const mensagem = this.querySelector('textarea[name="mensagem"]').value;
+
+    // IMPORTANTE: Substitua 'SEUNUMERO' pelo seu número de telefone com código do país (ex: 5511999998888)
+    const numeroWhatsapp = "5586994946202";
+
+    const texto = `Olá! Meu nome é ${nome} (${email}).\n\n${mensagem}`;
+
+    // Codifica o texto para ser usado na URL
+    const textoCodificado = encodeURIComponent(texto);
+
+    const urlWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${textoCodificado}`;
+
+    // Abre o WhatsApp em uma nova aba
+    window.open(urlWhatsapp, '_blank');
+
+    this.reset();
   });
 </script>
 
