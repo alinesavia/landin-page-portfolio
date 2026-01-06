@@ -105,7 +105,7 @@ section h2 {
 #sobre .container {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
