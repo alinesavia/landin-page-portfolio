@@ -58,7 +58,7 @@
                     <img src="https://www.pngitem.com/pimgs/m/493-4938088_html-css-javascript-icons-hd-png-download.png" alt="Projeto 1">
                     <h3>Projeto 1</h3>
                     <p>Landin Page criada com HTML, CSS e Javascript.</p>
-                    <a href="https://alinesavia.github.io/landin-page-portfolio/" target="_blank" class="btn">Ver projeto</a>
+                    <a href="https://github.com/alinesavia/landin-page-portfolio.git" target="_blank" class="btn">Ver projeto</a>
                 </div>
 
                 <div class="card-projeto">
@@ -96,7 +96,7 @@
     <footer>
         <p>© 2025 Aline — Desenvolvedora Frontend</p>
         <div class="social">
-            <img src="./Imagem/github_PNG40.png" alt="">
+            <img src="./Imagem/foto-perfil-melhorada.png" alt="foto-perfil">
             <a href="https://github.com/alinesavia" target="_blank" rel="noopener noreferrer">GitHub</a> |
             <img src="./Imagem/linkedin.png" alt="">
             <a href="https://www.linkedin.com/in/alinesavia-tech" target="_blank" rel="noopener noreferrer">Linkedin</a>
@@ -115,17 +115,14 @@
     const email = this.querySelector('input[name="email"]').value;
     const mensagem = this.querySelector('textarea[name="mensagem"]').value;
 
-    // IMPORTANTE: Substitua 'SEUNUMERO' pelo seu número de telefone com código do país (ex: 5511999998888)
     const numeroWhatsapp = "5586994946202";
 
     const texto = `Olá! Meu nome é ${nome} (${email}).\n\n${mensagem}`;
 
-    // Codifica o texto para ser usado na URL
     const textoCodificado = encodeURIComponent(texto);
 
     const urlWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${textoCodificado}`;
 
-    // Abre o WhatsApp em uma nova aba
     window.open(urlWhatsapp, '_blank');
 
     this.reset();
