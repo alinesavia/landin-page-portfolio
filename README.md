@@ -11,7 +11,7 @@ O projeto apresenta minha trajetória, habilidades e alguns projetos desenvolvid
 - **CSS3** — estilização e layout responsivo  
 - **JavaScript** — interatividade e animações  
 - **Git & GitHub** — versionamento e hospedagem  
-- **EmailJS** — envio de mensagens via formulário com utilização de serviço de email online que permite enviar emails diretamente do código JavaScript.
+- **WhatsApp API** — integração para envio de mensagens diretas via formulário.
 
 ---
 
@@ -20,7 +20,7 @@ O projeto apresenta minha trajetória, habilidades e alguns projetos desenvolvid
 - Seções de apresentação, habilidades, projetos e contato  
 - Design responsivo adaptado para dispositivos móveis  
 - Animações suaves com JavaScript  
-- Formulário de contato funcional com envio de serviço por e-mail (EmailJS) 
+- Formulário de contato com redirecionamento automático para WhatsApp
 - Botão “voltar ao topo” e navegação fluida  
 
 ---
@@ -41,6 +41,6 @@ Além da interface, o objetivo é demonstrar conhecimentos em responsividade, or
 ## 📬 Contato
 
 - **Nome:** Aline Sávia Lima  
-- **E-mail:** alinelima@aluno.uespi.br  
+- **E-mail:** alinelima@aluno.uespi.br  / enila.aivas@gmail.com
 - **LinkedIn:** [linkedin.com/in/alinesavia](https://www.linkedin.com/in/alinesavia)  
 - **GitHub:** [github.com/alinesavia](https://github.com/alinesavia)
